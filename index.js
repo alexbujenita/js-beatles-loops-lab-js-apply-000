@@ -17,4 +17,3 @@ const johnLennonFacts = (array) => {
   }
   return final;
 }
-
