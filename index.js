@@ -11,7 +11,7 @@
 function theBeatlesPlay(arrMus, arrInst) {
   var finalArray = [];
   for (let i = 0; i < arrMus.length; i++) {
-    finalArray.push(arrMus[i] + " plays " + arrArt[i]);
+    finalArray.push(arrMus[i] + " plays " + arrInst[i]);
   }
   return finalArray;
 }
