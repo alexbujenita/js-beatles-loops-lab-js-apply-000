@@ -1,7 +1,7 @@
 // add solution here
 
 const theBeatlesPlay = (arrMus, arrInst) => {
-  let finalArray = [];
+  var finalArray = [];
   for (let i = 0; i < arrMus.legth; i++) {
     finalArray.push(`${arrMus[i]} plays ${arrInst[i]}`)
   }
