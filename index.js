@@ -7,3 +7,14 @@ const theBeatlesPlay = (arrMus, arrInst) => {
   }
   return finalArray;
 }
+
+const johnLennonFacts = (array) => {
+  var final = [];
+  var i = 0;
+  while (i < array.length){
+    final.push(array[i] + '!!!');
+    i++;
+  }
+  return final;
+}
+
