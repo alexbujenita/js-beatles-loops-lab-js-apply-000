@@ -17,3 +17,11 @@ const johnLennonFacts = (array) => {
   }
   return final;
 }
+
+const iLoveTheBeatles = (a) => {
+  var final = [];
+  var count = 0;
+  do {
+    final.push("I love the Beatles!");
+  } while (count < 15);
+}
