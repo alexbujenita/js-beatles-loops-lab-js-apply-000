@@ -20,10 +20,9 @@ const johnLennonFacts = (array) => {
 
 const iLoveTheBeatles = (a) => {
   var final = [];
-  var count = 0;
-  do {
+    do {
     final.push("I love the Beatles!");
-    count++;
-  } while (count < 15);
+    a++;
+  } while (a < 15);
   return final;
 }
