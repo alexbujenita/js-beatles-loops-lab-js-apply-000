@@ -23,5 +23,6 @@ const iLoveTheBeatles = (a) => {
   var count = 0;
   do {
     final.push("I love the Beatles!");
+    count++;
   } while (count < 15);
 }
