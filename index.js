@@ -6,4 +6,5 @@ const theBeatlesPlay = (arrMus, arrInst) => {
   for (let i = 0; i < arrMus.legth; i++) {
     finalArray.push(`${arrMus[i]} plays ${arrInst[i]}.`)
   }
+  return finalArray;
 }
